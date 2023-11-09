@@ -1,0 +1,132 @@
+header {
+  background-color: #926A97;
+}
+
+.descricao {
+  background-color: #8F8294;
+  color: #EBB9E4;
+}
+
+footer {
+  background-color: #8F8294;
+}
+footer p {
+  color: #EBB9E4;
+}
+
+.letra {
+  color: #EBB9E4;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.letra {
+  font-size: 2em;
+  margin: 1em;
+}
+
+.descricao {
+  margin: 3%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer p {
+  margin: 1rem;
+}
+
+.separacao {
+  display: flex;
+  align-items: center;
+}
+
+#introducao {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+
+#foto {
+  width: 20rem;
+  margin: 5rem;
+}
+
+.borboleta {
+  position: relative;
+  left: 60px;
+  bottom: 60px;
+  width: 5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#posicao {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+#coluna {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#vertical {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#posicaoflor {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 988px) {
+  .borboleta {
+    left: 40px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 830px) {
+  #vertical {
+    flex-direction: column;
+  }
+  #coluna {
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 870px) {
+  .letra {
+    display: none;
+  }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header {
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
