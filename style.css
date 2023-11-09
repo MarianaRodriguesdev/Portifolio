@@ -18,6 +18,22 @@ footer p {
   color: #EBB9E4;
 }
 
+#projcentro {
+  background-color: #8F8294;
+}
+
+#proj2 {
+  background-color: #8F8294;
+}
+
+#proj3 {
+  background-color: #8F8294;
+}
+
+#proj6 {
+  background-color: #8F8294;
+}
+
 body {
   margin: 0;
 }
@@ -119,12 +135,6 @@ section {
     display: none;
   }
 }
-main {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 header {
   margin: auto;
 }
