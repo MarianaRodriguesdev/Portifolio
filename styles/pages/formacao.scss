@@ -1,0 +1,20 @@
+#posicao5{
+    display: flex;
+   margin-bottom: 4rem;
+   justify-content: center;
+}
+#borb{
+    position: relative;
+    top: 1rem;
+}
+#Apps{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+.app{
+    padding: 5%;
+    bottom: 5rem;
+    margin: 2rem;
+}
