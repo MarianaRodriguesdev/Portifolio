@@ -72,9 +72,10 @@ section{
        padding-top: 2rem;
    }
 }
-@media (max-width:550px) {
+@media (max-width:500px) {
    .letra{
        font-size: 0.8rem;
+       margin: 0.4rem;
    }
 }
 @media (min-width:1000px) {
